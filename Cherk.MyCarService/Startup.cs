@@ -1,3 +1,6 @@
+using Cherk.MyCarService.Extensions;
+using Prometheus.Client.AspNetCore;
+
 namespace Cherk.MyCarService;
 
 public sealed class Startup
@@ -13,6 +16,8 @@ public sealed class Startup
     
     public void ConfigureServices(IServiceCollection services)
     {
+        services.AddServiceMetrics();
+        
         services.AddControllers();
         
         services.AddCors(policy => 
@@ -26,6 +31,7 @@ public sealed class Startup
     {
         app.UseRouting();
         app.UseCors(CorsPolicyName);
+        app.UsePrometheusServer();
         
         app.UseEndpoints(endpoints => {
             endpoints.MapControllers();
