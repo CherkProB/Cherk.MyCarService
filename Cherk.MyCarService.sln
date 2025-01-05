@@ -4,6 +4,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1DCF6ED0-A75
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cherk.MyCarService", "Cherk.MyCarService\Cherk.MyCarService.csproj", "{1DFE17C9-FA92-477F-8D27-40D3E9031E86}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cherk.MyCarService.Common", "Cherk.MyCarService.Common\Cherk.MyCarService.Common.csproj", "{AC564F76-9329-4968-961B-B2E868E6BC7E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -11,11 +13,16 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1DFE17C9-FA92-477F-8D27-40D3E9031E86} = {1DCF6ED0-A757-4331-B283-20B83987F194}
+		{AC564F76-9329-4968-961B-B2E868E6BC7E} = {1DCF6ED0-A757-4331-B283-20B83987F194}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{1DFE17C9-FA92-477F-8D27-40D3E9031E86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1DFE17C9-FA92-477F-8D27-40D3E9031E86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DFE17C9-FA92-477F-8D27-40D3E9031E86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DFE17C9-FA92-477F-8D27-40D3E9031E86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC564F76-9329-4968-961B-B2E868E6BC7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC564F76-9329-4968-961B-B2E868E6BC7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC564F76-9329-4968-961B-B2E868E6BC7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC564F76-9329-4968-961B-B2E868E6BC7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
